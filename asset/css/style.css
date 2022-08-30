@@ -1,0 +1,28 @@
+*{
+    padding: 1%;
+    
+}
+.top-nav{
+display: flex;
+color: white;
+background-color: green;
+
+}
+.body{
+
+display: flex;
+justify-content: space-between;
+}
+.sec-A{
+background-color: grey;
+}
+.sec-B{
+    background-color: skyblue;
+
+}
+.footer{
+display: flex;
+background-color: black;
+color: white;
+height: 20px;
+}
