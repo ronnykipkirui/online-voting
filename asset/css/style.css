@@ -24,7 +24,7 @@
 }
 
 .sec-A {
-    background-color: grey;
+    background-color: lightgray;
     width: 30%;
     border-radius: 20px;
 }
@@ -44,4 +44,14 @@
 }
 .list{
     text-decoration: none;
+}
+
+.log{
+    display: flex;
+    
+}
+
+button{
+    background-color: green;
+    border-radius: 10px;
 }
