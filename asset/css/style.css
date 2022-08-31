@@ -1,5 +1,6 @@
 * {
-    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     height: auto;
     
 
@@ -9,14 +10,15 @@
     display: flex;
     color: white;
     background-color: lightgreen;
-    height: 10%;
+    height: 5%;
     justify-content: space-between;
-    padding-left: 30%;
+    
     text-align: center;
 
 }
 
 .body {
+    padding-top: 1%;
     background-color: ghostwhite;
     height: 80%;
     display: flex;
@@ -28,7 +30,9 @@
     width: 30%;
     border-radius: 20px;
 }
-
+#image{
+    border-radius: 50%;
+}
 .sec-B {
     background-color: skyblue;
     width: 60%;
@@ -38,20 +42,26 @@
 
 .footer {
     display: flex;
-    background-color: black;
+    padding-top: 2%;
+    /* background-color: black; */
     color: white;
     height: auto;
+    justify-content: space-evenly;
 }
 .list{
     text-decoration: none;
 }
 
-.log{
-    display: flex;
-    
-}
 
 button{
     background-color: green;
     border-radius: 10px;
+}
+image{
+    border-radius: 50px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
 }
