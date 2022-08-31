@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>online voting system</title>
 </head>
 
 <body>
     <div class="top-nav">
-        <div> <h1>Online voting system</h1></div>
+        <div>
+            <h1>Online voting system</h1>
+        </div>
         <div class="log">
-            <button>Log-out </button>
-            <button><img src="" alt="icon"></span></button>
+            <button>Log-Out</button>
+          
         </div>
 
     </div>
     <div class="body">
         <div class="sec-A">
-            <img src="" alt="image">
+            <img id="image" src="./asset/images/avatar.png" alt="image">
             <h3>Personal's Details</h3>
             <ul class="list">
                 <li>mobile</li>
@@ -38,36 +41,71 @@
                 <tr>
                     <td>1</td>
                     <td>president</td>
-                    <td><input type="select your prefered candidate"></td>
-                    <td><img src="" alt="icon"></td>
+                    <td><form>
+                        <label for="cars">Choose your candidate:</label>
+                        <select id="candidates" name="names">
+                          <option value="granit">Granit Xhaka</option>
+                          <option value="Thomas">Thomas Partey</option>
+                          <option value="fiat">Gabriel Martinelli</option>
+                        </select>
+                        </form>
+                    <td><img height="30px" width="30px" src="./asset/images/icon1.png" alt="icon"></td>
                     <td><button>vote</button></td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>governor</td>
-                    <td><input type="select your prefered candidate"></td>
-                    <td><img src="" alt="icon"></td>
+                    <td><form>
+                        <label for="cars">Choose your candidate:</label>
+                        <select id="candidates" name="names">
+                          <option value="saka">GBukayo Saka</option>
+                          <option value="ben">Ben White</option>
+            
+                        </select>
+                        </form></td>
+                    <td><img height="30px" width="30px" src="./asset/images/icon2.png" alt="icon"></td>
                     <td><button>vote</button></td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>senator</td>
-                    <td><input type="select your prefered candidate"></td>
-                    <td><img src="" alt="icon"></td>
+                    <td><form>
+                        <label for="cars">Choose your candidate:</label>
+                        <select id="candidates" name="names">
+                          <option value="fabio">Fabio vieira
+                          <option value="eddie">Eddie Nketiah</option>
+                          <option value="Aron">Aron Ramsdale</option>
+                        </select>
+                        </form></td>
+                    <td><img height="30px" width="30px" src="./asset/images/icon3.png" alt="icon"></td>
                     <td><button>vote</button></td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>mp</td>
-                    <td><input type="select your prefered candidate"></td>
-                    <td><img src="" alt="icon"></td>
+                    <td><form>
+                        <label for="cars">Choose your candidate:</label>
+                        <select id="candidates" name="names">
+                          <option value="granit">Granit Xhaka</option>
+                          <option value="Thomas">Thomas Partey</option>
+                          <option value="fiat">Gabriel Martinelli</option>
+                        </select>
+                        </form></td>
+                    <td><img height="30px" width="30px" src="./asset/images/icon4.png" alt="icon"></td>
                     <td><button>vote</button></td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>mca</td>
-                    <td><input type="select your prefered candidate"></td>
-                    <td><img src="" alt="icon"></td>
+                    <td><form>
+                        <label for="cars">Choose your candidate:</label>
+                        <select id="candidates" name="names">
+                          <option value="granit">Granit Xhaka</option>
+                          <option value="Thomas">Thomas Partey</option>
+                          <option value="fiat">Gabriel Martinelli</option>
+                        </select>
+                        </form></td>
+                    <td><img height="30px" width="30px" src="./asset/images/icon5.png" alt="icon"></td>
                     <td><button>vote</button></td>
                 </tr>
             </table>
@@ -75,7 +113,9 @@
         </div>
     </div>
     <div class="footer">
-        <h3>terms and condition applies</h3>
+        <button>back</button>
+        <button>submit</button>
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
     </div>
 
     <script src="./asset/js/main.js"></script>
