@@ -2,19 +2,31 @@
     padding-left: 2%;
     padding-right: 2%;
     height: auto;
-    
+
 
 }
 
 .top-nav {
     display: flex;
     color: white;
-    background-color: lightgreen;
+    background-color: skyblue;
     height: 5%;
     justify-content: space-between;
-    
+
     text-align: center;
 
+}
+#btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
 }
 
 .body {
@@ -23,19 +35,25 @@
     height: 80%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .sec-A {
-    background-color: lightgray;
-    width: 30%;
+    background-color: rgb(231, 231, 231);
+    width: 20%;
     border-radius: 20px;
+    border: solid;
+
 }
-#image{
+
+#image {
     border-radius: 50%;
 }
+
 .sec-B {
-    background-color: skyblue;
+    background-color: rgb(237, 237, 237);
     width: 60%;
+    border: solid;
 
     border-radius: 20px;
 }
@@ -48,20 +66,35 @@
     height: auto;
     justify-content: space-evenly;
 }
-.list{
+
+.list {
     text-decoration: none;
 }
 
 
-button{
-    background-color: green;
-    border-radius: 10px;
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
 }
-image{
+
+image {
     border-radius: 50px;
 }
-table{
+
+table {
     border-collapse: collapse;
     width: 100%;
-    text-align: center;
+    text-align: left;
+}
+
+#table tr:hover {
+    background-color: #ddd;
 }
