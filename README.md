@@ -1,4 +1,5 @@
-Online Voting System
+### Online Voting System
+
 Portfolio By Ronny kipkirui
 
 ### Table of Content Description
@@ -13,7 +14,6 @@ Portfolio By Ronny kipkirui
 ### Description
 
 This project is a weba-based application that enables voters to cast their votes online.
-
 
 ### Requirements
 
