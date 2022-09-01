@@ -9,10 +9,11 @@
 .top-nav {
     display: flex;
     color: white;
-    background-color: skyblue;
+    background-color: rgb(6, 76, 103);
     height: 5%;
     justify-content: space-between;
-
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
 }
