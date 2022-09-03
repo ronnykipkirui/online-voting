@@ -1,11 +1,11 @@
 {
-    "person": [
+    "personDetails": [
         {
             "id": 1,
             "image": "./asset/images/avatar.png",
             "name": "ronny bett",
-            "id-no": "2345",
-            "polling-station": "A",
+            "idNumber": "2345",
+            "pollingStation": "A",
             "address": "makadara",
             "status": "voted"
         },
@@ -13,8 +13,8 @@
             "id": 2,
             "image": "./asset/images/youth.jpeg",
             "name": "jerry jerry",
-            "id-no": "3456",
-            "polling-station": "A",
+            "idNumber": "3456",
+            "pollingStation": "A",
             "address": "moringa",
             "status": "not-voted"
         },
@@ -22,8 +22,8 @@
             "id": 1,
             "image": "./asset/images/lady.jpeg",
             "name": "poodie pody",
-            "id-no": "4567",
-            "polling-station": "A",
+            "idNumber": "4567",
+            "pollingStation": "A",
             "address": "ngong",
             "status": "voted"
         },
@@ -31,8 +31,8 @@
             "id": 1,
             "image": "./asset/images/kijana.jpeg",
             "name": "graham bell",
-            "id-no": "1234",
-            "polling-station": "A",
+            "idNumber": "1234",
+            "pollingStation": "A",
             "address": "nairobi",
             "status": "not-voted"
         }
