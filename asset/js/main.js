@@ -1,44 +1,34 @@
-// function getPerson() {
-//     fetch('http://localhost:3000/person')
+let btn1;
+let btn2;
+let btn3;
+let btn4;
 
-//         .then((response) => response.json())
-//         .then(getData);
-// }
-// function getData(values) {
-//     let image = document.getElementById('image')
+let p1 = document.getElementById('p1')
+let p2 = document.createElement('p2')
+let p3 = document.createElement('p3')
+let p4 = document.createElement('p4')
+let p5 = document.getElementById('p5')
 
-//   image.src = data.image;
-    
-// }
-function getImage() {
-    fetch(personAddress)
-      .then((response) => response.json())
-      .then(getImage)
-      .catch((err) => console.log("Addresses not found"));
-  }
-  function getImagesComments(data) {
-   // title.textContent = data.title;
-    image.src = data.image;
-   // comments.textContent = data.myComments;
-    //   comments.innerHTML = addComment(comment);
-   // myComments();
-  }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    personAddress = "http://localhost:3000/person";
-   
-    image = document.getElementById("mage");
 
-    //title = document.getElementById("card-title");
-  //  li = document.createElement("li");
-   
-   // addLikes = document.getElementById("like-count");
-  
-   getImage();
-    
-  });
 
-const btn = document.getElementById('btn1');
-btn.addEventListener('click', function handleClick() {
-    btn.textContent = 'voted';
-});
+function onLoad() {
+  fetch("http://localhost:3000/person/1")
+    .then((resp) => resp.json())
+    .then((data) => {
+      displayImage(data);
+    });
+
+}
+function displayImage() {
+  let div = document.getElementById('sec-A');
+  div.innerHTML = data.values
+  image.src = data.image
+  p1.textContent = data.name
+  p1.textContent = data.mobile
+}
+
+// document.addEventListener('DOMContentLoaded', onLoad)
+// const personImage = document.getElementById('image')
+// const name = document.getElementById('name')
+displayImage()
