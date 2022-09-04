@@ -34,13 +34,13 @@
 
 .body {
     padding-top: 1%;
-    background-image: url('../images/back.jpeg');
-    background-repeat: no-repeat;
+    background-image: url('../images/back3.jpeg');
+    background-repeat: repeat;
     background-size: cover;
     height: 80%;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .sec-A {
@@ -72,7 +72,7 @@
     padding-bottom: 2%;
     margin-top: 0;
     color: white;
-    background-color: black;
+    background-color: rgb(98, 97, 97);
     height: auto;
     justify-content: space-evenly;
 }
@@ -113,4 +113,8 @@ table button {
 
 #table tr:hover {
     background-color: #ddd;
+}
+td{
+    text-align: center;
+    font-weight: bold;
 }

@@ -1,53 +1,26 @@
+fetch('http://localhost:3000/personDetails/1')
+.then(function(res){
+return res.json();
 
-const container= document.getElementsByClassName(".section")
+})
+.then (function (details){
 
-const renderDetails = async () => {
+  let placeholder=document.querySelector(".sec-A")
 
-  let url = "http://localhost:3000/personDetails"
+   let values="";
+           
+values= `<img src=${details.image} alt="image">
+           <h3>    ${details.name}</h3>
+           <p> ID number:   ${details.idNumber}</p>
+            <p> Mobile: ${details.mobile}</p>
+            <p>Polling station:  ${details.pollingStation}</p>
+           <p> Address:  ${details.address}</p>
+           <p>Status:  ${details.status}</p>
 
-  const res = await fetch(url);
-  const personDetails = await res.json();
-  
-  //console.log(personDetails)   
+`;
+placeholder.innerHTML=values
 
-  let template = '';
-  personDetails.forEach(details => {
-    template = `
-<div id="sec-A">
-            <img src=${details.image} alt="image">
-            <h3>${details.name}</h3>
-            <p>${details.idNumber}</p>
-            <p> ${details.mobile}</p>
-            <p> ${details.pollingStation}</p>
-            <p >${details.addres}</p>
-            <p>${details.status}</p>
-
-        </div> 
-
-`
-
-  });
-  container.innerHTML = template
-}
-window.addEventListener('DOMContentLoaded', () => renderDetails());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+})
 
 
 

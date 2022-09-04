@@ -5,6 +5,7 @@
             "image": "./asset/images/avatar.png",
             "name": "ronny bett",
             "idNumber": "2345",
+            "mobile": "0766666345",
             "pollingStation": "A",
             "address": "makadara",
             "status": "voted"
@@ -14,24 +15,27 @@
             "image": "./asset/images/youth.jpeg",
             "name": "jerry jerry",
             "idNumber": "3456",
+            "mobile": "0766666345",
             "pollingStation": "A",
             "address": "moringa",
             "status": "not-voted"
         },
         {
-            "id": 1,
+            "id": 3,
             "image": "./asset/images/lady.jpeg",
             "name": "poodie pody",
             "idNumber": "4567",
+            "mobile": "0766666345",
             "pollingStation": "A",
             "address": "ngong",
             "status": "voted"
         },
         {
-            "id": 1,
+            "id": 4,
             "image": "./asset/images/kijana.jpeg",
             "name": "graham bell",
             "idNumber": "1234",
+            "mobile": "0766666345",
             "pollingStation": "A",
             "address": "nairobi",
             "status": "not-voted"
