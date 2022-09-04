@@ -19,18 +19,19 @@
         <button id="btn-log">Log-Out</button>
     </div>
     <div class="body">
+       
+
+        <div class="popup">
+            <div class="popup-content">
+                <img class="close" height="40px" width="40px" src="./asset/images/clos.png" alt="">
+                <p>you have casted you vote successfully!!!</p>
+            </div>
+        </div>
+
+
         <!-- <div class="secction"> -->
-            <div class="sec-A">
-                <!-- <img src=${details.image} alt="image">
-                <h3>${details.name}</h3>
-                <p>${details.idNumber}</p>
-                <p> ${details.mobile}</p>
-                <p> ${details.pollingStation}</p>
-                <p >${details.addres}</p>
-                <p>${details.status}</p>
-     -->
-            </div> 
-        <!-- </div> -->
+        <div class="sec-A">
+        </div>
         <div class="sec-B">
             <h3>Cast Your Vote</h3>
             <hr>
@@ -38,9 +39,9 @@
                 <tr>
                     <td>1. </td>
                     <td>PRESIDENT</td>
+                    <td>Choose your president:</td>
                     <td>
                         <form>
-                            <label for="cars">Choose your president:</label>
                             <select id="candidates" name="names">
                                 <option value="granit">Granit Xhaka</option>
                                 <option value="Thomas">Thomas Partey</option>
@@ -48,14 +49,14 @@
                             </select>
                         </form>
                     <td><img height="30px" width="30px" src="./asset/images/icon1.png" alt="icon"></td>
-                    <td><button id="btn1">vote</button></td>
+                    <td><button id="btn">vote</button></td>
                 </tr>
                 <tr>
                     <td>2. </td>
                     <td>GORVERNOR</td>
+                    <td>Choose your governor:</td>
                     <td>
                         <form>
-                            <label for="cars">Choose your gorvernor:</label>
                             <select id="candidates" name="names">
                                 <option value="saka">Bukayo Saka</option>
                                 <option value="ben">Ben White</option>
@@ -66,12 +67,11 @@
                     <td><button id="btn2">vote</button></td>
                 </tr>
                 <tr>
-
                     <td>3. </td>
                     <td>SENATOR</td>
+                    <td>Choose your senator:</td>
                     <td>
                         <form>
-                            <label for="cars">Choose your senator:</label>
                             <select id="candidates" name="names">
                                 <option value="fabio">Fabio vieira
                                 <option value="eddie">Eddie Nketiah</option>
@@ -85,9 +85,9 @@
                 <tr>
                     <td>4. </td>
                     <td>MP</td>
+                    <td>Choose your mp:</td>
                     <td>
                         <form>
-                            <label for="cars">Choose your MP:</label>
                             <select id="candidates" name="names">
                                 <option value="granit">james timmon</option>
                                 <option value="Thomas">smith rowe</option>
@@ -101,9 +101,9 @@
                 <tr>
                     <td>5. </td>
                     <td>MCA</td>
+                    <td>Choose your mca:</td>
                     <td>
                         <form>
-                            <label for="cars">Choose your MCA:</label>
                             <select id="candidates" name="names">
                                 <option value="granit">martin odegurd</option>
                                 <option value="Thomas">gabriel jesus</option>
@@ -121,8 +121,8 @@
         </div>
     </div>
     <div class="footer">
-        <button>back</button>
-        <button>submit</button>
+        <button id="back">back</button>
+        <button id="submit">submit</button>
     </div>
     <script src="./asset/js/main.js"></script>
 </body>
