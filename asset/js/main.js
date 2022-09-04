@@ -53,9 +53,3 @@ window.addEventListener('DOMContentLoaded', () => renderDetails());
 
 
 
-
-
-
-
-
-
