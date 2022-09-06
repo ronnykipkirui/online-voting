@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/personDetails')
+fetch('http://localhost:3000/personDetails/2')
   .then(function (res) {
     return res.json();
 
@@ -11,10 +11,10 @@ fetch('http://localhost:3000/personDetails')
 
     values = `<img src=${details.image} alt="image">
            <h3>    ${details.name}</h3>
-           <p> <b>ID number:   ${details.idNumber}</p>
+           <p> <b>ID number:  ${details.idNumber}</p>
             <p> Mobile: ${details.mobile}</p>
-            <p>Polling station:  ${details.pollingStation}</p>
-           <p> Address:  ${details.address}</p>
+            <p>Polling station:${details.pollingStation}</p>
+           <p> Address: ${details.address}</p>
            <p>Status:  ${details.status}</p>
 
 `;
